@@ -1,0 +1,176 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+h1{
+	color: white;
+}
+.arrow{
+	color: black;
+	font-size: 50px;
+    position: relative;
+	left: 10px;
+	top: -15px;
+}
+.albumhead-bar {
+	
+	width: 300px;
+	height: 45px;
+	text-align: center;
+	background-color: #e6ccff;
+	text-shadow: 1.5px 1.5px black;
+}
+.songheadbar {
+	width: 300px;
+	height: 45px;
+	background-color: #e6ccff;
+	text-shadow: 1.5px 1.5px white;
+}
+
+.line li {
+    display: list-item;
+    width: 240px;
+    margin-top: 5px;
+	padding: 3px;
+    background: transparent;
+    outline: 1px solid #000;
+}
+
+.container {
+	
+	padding: 10px 10px 10px;
+	
+}
+.purple{
+	color: purple;
+}
+.currsong{
+	text-align: center;
+}
+.start{
+	text-align: left;
+	padding-left: 20px;
+}
+.end{
+	text-align: right;
+	padding-right: 40px;
+	margin-top: -20px;
+}
+.cover{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	height:200px;
+	width: 200px;
+	margin: 20px 30px 0 0;
+}
+#myRange{
+	position: relative;
+	width: 80%;
+	margin-left: 20px;
+}
+.vol{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 15px;
+	height: 20px;
+	width: 250px;
+}
+#move{
+	float: left;
+
+}
+#vl0, #vl1, #vl2, #vl3, #vl4, #vl5{
+	height: 6px;
+	width: 24px;
+	border-style: solid;
+	border: 1px;
+	outline: 1px solid #000;
+margin-left: 10px;
+margin-top: 10px;
+float: left;
+}
+
+.vols button{
+	float: left;
+	height: 18px;
+	width: 90px;
+	margin: 10px;
+}
+#lets-get-pretty{
+	color: black;
+	font-size: 49px;
+    position: relative;
+	
+}
+.buttonnns{
+	padding-left: 85px;
+}
+.container__image {
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+	margin: 20px 30px 0 0;
+}
+.container__text {
+	display: inline-block;
+}
+h3{
+	font-weight: bolder;
+}
+h4{
+font-style: italic;
+font-weight: normal;
+}
+h5{
+	font-style: normal;
+}
+
+
+.albums-album-art{
+	text-align: center;
+	padding-top: 10px;
+	height:450px;
+	width:300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+
+}
+.albums-album img {
+	
+	height: 130px;
+   
+  }
+
+
+
+
+.albums-album-name {
+	color: black;
+
+	font-size: 20px;
+	font: bold;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.albums-artist-name {
+
+	font-size: 15px;
+	font-style: italic;
+	font-weight: normal;
+}
+

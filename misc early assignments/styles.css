@@ -1,0 +1,34 @@
+h1 {
+    color: blue;
+ }
+
+#signature {
+    background-color: rgb(199, 181, 15);
+    color: rgb(221, 16, 16);
+}
+.centered { text-align: center; }
+
+h2.centered { 
+    text-align: center;
+    color:black; 
+}
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: lightblue;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+
+  .things p {
+    color: powderblue;
+}

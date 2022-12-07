@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Michael Allen's Portfolio Website" />
+    <meta name="author" content="Michael Allen" />
+
+    <link rel="stylesheet" href="stle.css" />
+    <script src="menu.js"></script>
+
+    <title>Michael Allen</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar2">
+            <a href="index.html" tabindex=1>Home</a>
+            <a href="bio.html" tabindex=2>Bio</a>
+            <a href="images\Michael Allen's Resume.pdf" rel="noopener noreferrer" target=”_blank” tabindex=3>Resume</a>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()" tabindex=4>Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="detail.html" tabindex=5>Drawing Tools</a>
+
+            </div>
+        </div>
+        <div class="rest"></div>
+    </div>
+
+
+
+    <div class="container">
+        <section class="grid2 aboutSection">
+            <div class="centered">
+                <div>
+                    <h2>Hi, I'm Michael Allen</h2>
+                    <p>I am a senior Computer Science student at Northwestern University. I have experience in software
+                        development, general programming, and game development with Unity, and I'm interested in
+                        exploring all areas of computing. I also love music, reading, and games. I currently live in the
+                        Chicagoland area and am open to opportunities nearby or any remote opportunities.
+
+                    </p>
+                </div>
+            </div>
+            <img class="aboutImg" src="images\stereotypical professional profile picture.png" alt="Picture of Michael Allen in proffessional clothing in front of a dark brown wood background."></img>
+        </section>
+    </div>
+
+    <div class="container project-section">
+
+        <section>
+            <h2 id="yo">Projects</h2>
+
+
+            <img src="images\gif a4.gif" alt="A gif of p5js swarm projects"></img>
+
+            <p>
+                For this project we worked with p5js to create systems of swarms and simulate forces on the
+                individual. All the swarms are interactive and have varying emergent behaviors. </p>
+            <a href="https://michael-allen-a4.glitch.me/"><button>Visit Project</button></a>
+
+
+            <img src="images\michaelallen_a3.gif" alt="A gif of p5js drawing tools">
+            </img>
+
+
+            <p>In this project we we used various p5js methods and ideas in order to create various types of
+                interesting brushes for the user to be able to draw and play around with.</p>
+
+
+            <a href="detail.html"><button>Read More</button></a>
+            <a href="https://michael-allen-a3.glitch.me/"><button>Visit Project</button></a>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <div class="flex-space-btw">
+            <a class="centered">Michael Allen</a>
+            <a href="mailto:michaelallen2023@u.northwestern.edu" class="centered">michaelallen2023@u.northwestern.edu
+                <img src='images/gmail.png' class='icon' alt="A gmail icon"></img></a>
+        </div>
+    </footer>
+</body>
+
+</html>
